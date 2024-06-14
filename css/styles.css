@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Estilos para el Index */
+
+main {
+    padding: 20px;
+}
+
+
+/* Estilos para el contenedor de imágenes en el INDEX */
+
+.container-ind {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "img-princi img-sec"
+        "img-princi img-ter";
+    background-color: #333;
+    padding: 40px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.img-princi {
+    background-color: #bc6969;
+    grid-area: img-princi;
+    position: relative;
+}
+
+.img-sec {
+    background-color: rgb(52, 164, 112);
+    grid-area: img-sec;
+    position: relative;
+}
+
+.img-ter {
+    background-color: #8a1111;
+    grid-area: img-ter;
+    position: relative;
+}
+
+.hijo {
+    display: grid;
+    border: 1px solid black;
+    margin: 10px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-img {
+    position: absolute;
+    bottom: 1px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Segundo contenedor del INDEX*/
+
+#estiloh3 h4 {
+    display: inline-block;
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+    margin: 10px;
+    margin-left: 20px;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.container-ind2 {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "disco1 disco2 disco3 disco4 disco5 disco6"
+        "disco7 disco8 disco9 disco10 disco11 disco12";
+    padding: 40px;
+    margin-bottom: 15px;
+}
+
+.disco1 {
+    background-color: red;
+    grid-area: disco1;
+}
+
+
+.disco2 {
+    background-color:blueviolet;
+    grid-area: disco2;
+}
+
+.disco3 {
+    background-color: rgb(69, 200, 178);
+    grid-area: disco3;
+}
+
+
+.disco4 {
+    background-color:rgb(109, 80, 136);
+    grid-area: disco4;
+}
+
+
+.disco5 {
+    background-color: rgb(165, 115, 23);
+    grid-area: disco5;
+}
+
+
+.disco6 {
+    background-color:rgb(22, 161, 31);
+    grid-area: disco6;
+}
+
+.disco7 {
+    background-color:rgb(22, 161, 31);
+    grid-area: disco7;
+}
+
+.disco8 {
+    background-color:rgb(22, 161, 31);
+    grid-area: disco8;
+}
+
+.disco9 {
+    background-color:rgb(22, 161, 31);
+    grid-area: disco9;
+}
+
+.disco10 {
+    background-color:rgb(22, 161, 31);
+    grid-area: disco10;
+}
+
+.disco11 {
+    background-color:rgb(22, 161, 31);
+    grid-area: disco11;
+}
+
+.disco12 {
+    background-color:rgb(22, 161, 31);
+    grid-area: disco12;
+}
+
+.discos {
+    margin: 10px;
+    max-width: 200px;
+    max-height: 200px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+ /** Estilo para Artistas <----------------*/
+
+ .list-group-item a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .list-group-item a:hover {
+    color: #ff6600; 
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+/** Estilo para Foro<------------------------------------*/
+
+.container-f {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 10px;
+}
+
+/** Estilo para Generos<------------------------------------*/
+
+.container-g {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 10px;
+}
+
+/** Estilo para Quienes somos<------------------------------------*/
+
+
+
+
+
+
+
+/** Estilos para el footer **/
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+.contacto {
+    max-width: 600px;
+    margin: 0px auto;
+}
