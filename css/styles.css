@@ -5,15 +5,17 @@
 }
 
 body {
+    height: 100%;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
 }
 
-/* Estilos para el Index */
-
 main {
+    flex: 1;
     padding: 20px;
 }
 
@@ -80,7 +82,7 @@ img {
 
 /* Segundo contenedor del INDEX*/
 
-#estiloh3 h4 {
+#estiloh4 h4 {
     display: inline-block;
     background-color: black;
     font-family: sans-serif;
@@ -107,66 +109,54 @@ img {
 }
 
 .disco1 {
-    background-color: red;
     grid-area: disco1;
 }
 
 
 .disco2 {
-    background-color:blueviolet;
     grid-area: disco2;
 }
 
 .disco3 {
-    background-color: rgb(69, 200, 178);
     grid-area: disco3;
 }
 
 
 .disco4 {
-    background-color:rgb(109, 80, 136);
     grid-area: disco4;
 }
 
 
 .disco5 {
-    background-color: rgb(165, 115, 23);
     grid-area: disco5;
 }
 
 
 .disco6 {
-    background-color:rgb(22, 161, 31);
     grid-area: disco6;
 }
 
 .disco7 {
-    background-color:rgb(22, 161, 31);
     grid-area: disco7;
 }
 
 .disco8 {
-    background-color:rgb(22, 161, 31);
     grid-area: disco8;
 }
 
 .disco9 {
-    background-color:rgb(22, 161, 31);
     grid-area: disco9;
 }
 
 .disco10 {
-    background-color:rgb(22, 161, 31);
     grid-area: disco10;
 }
 
 .disco11 {
-    background-color:rgb(22, 161, 31);
     grid-area: disco11;
 }
 
 .disco12 {
-    background-color:rgb(22, 161, 31);
     grid-area: disco12;
 }
 
@@ -184,9 +174,9 @@ img {
   }
 
   .list-group-item a:hover {
-    color: #ff6600; 
+    color: #d27131; 
     font-weight: bold;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
   }
 /** Estilo para Foro<------------------------------------*/
 
@@ -210,13 +200,6 @@ img {
     border: 10px;
 }
 
-/** Estilo para Quienes somos<------------------------------------*/
-
-
-
-
-
-
 
 /** Estilos para el footer **/
 
@@ -232,3 +215,71 @@ footer {
     max-width: 600px;
     margin: 0px auto;
 }
+
+
+/** Estilo para Quienes somos<------------------------------------*/
+
+/** ACORDEON*/
+
+
+  .accordion-button {
+            background-color: #fff;
+            color: #000;
+        }
+        .accordion-button:focus {
+            box-shadow: none;
+        }
+        .accordion-button:not(.collapsed) {
+            background-color: #2e2d2d;
+            color: #fff;
+        }
+        .accordion-button:not(.collapsed)::after {
+            filter: invert(100%);
+        }
+        .accordion-body {
+            background-color: #fff;
+            color: #000;
+        }
+        .accordion-item {
+            border: 1px solid #ccc;
+        }
+        .accordion-header {
+            border-bottom: 1px solid #ccc;
+        }
+        a {
+            color: #010a14;
+        }
+        a:hover {
+            color: #0056b3;
+        }
+
+
+
+
+        /* MEDIA QUERIES PARA INDEX*/
+        
+
+      /* Media queries para mantener el footer al fondo */
+
+
+
+@media screen and (max-width: 700px) {
+    .container-ind {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+            "img-princi"
+            "img-sec"
+            "img-ter";
+    }
+        .container-ind2 {
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            grid-template-areas: 
+                "disco1 disco2 disco3"
+                "disco4 disco5 disco6"
+                "disco7 disco8 disco9"
+                "disco10 disco11 disco12" 
+        }
+    }
+
