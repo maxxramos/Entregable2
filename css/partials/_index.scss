@@ -1,0 +1,113 @@
+/* Estilos para el contenedor de imágenes en el INDEX */
+
+//TEXTO ANIMADO// 
+
+/* Texto animado */
+.animated-text {
+    display: flex;
+    font-size: 1.1rem;
+    transition: transform 0.3s ease-in-out;
+    justify-content: center;
+}
+
+/* Animación al pasar el ratón */
+.animated-text:hover {
+    animation: hoverEffect 0.9s forwards;
+}
+
+/* Definición de la animación */
+@keyframes hoverEffect {
+    0% {
+        transform: scale(1);
+        color: #000;
+    }
+    50% {
+        transform: scale(1.1);
+        color: #ca2c1097; /* Tomate */
+        font-size: 2rem;
+    }
+    100% {
+        transform: scale(1);
+        color: #000;
+    }
+}
+
+.container-dark {
+    background-color: #343a40; /* Fondo oscuro */
+    width: 100%; /* Ancho completo del contenedor */
+    padding: 20px;
+  }
+  .text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .text-overlay a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .text-overlay a:hover {
+    text-decoration: underline;
+  }
+  .custom-img {
+    object-fit: cover; /* Cubre el contenedor manteniendo la relación de aspecto */
+    width: 100%; /* Asegura que la imagen ocupe todo el contenedor */
+    height: 100%;
+  }
+  .image-container {
+    height: calc(50% - 5px); /* Ajustar altura de contenedor de imagen */
+    position: relative;
+  }
+  .col-md-6 .image-container:first-child {
+    margin-bottom: 10px; /* Margen entre las dos imágenes de la segunda columna */
+  }
+  
+
+  
+/* Segundo contenedor del INDEX*/
+
+#estiloh4 h4 {
+    display: inline-block;
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+    margin: 10px;
+    margin-left: 20px;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.custom-card {
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card .card-img-top {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.custom-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    text-align: center;
+}

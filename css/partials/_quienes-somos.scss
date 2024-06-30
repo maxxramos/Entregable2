@@ -1,0 +1,37 @@
+/** Estilo para Quienes somos<------------------------------------*/
+
+/** ACORDEON*/
+
+
+.accordion-button {
+    background-color: #fff;
+    color: #000;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #2e2d2d;
+    color: #fff;
+}
+.accordion-button:not(.collapsed)::after {
+    filter: invert(100%);
+}
+.accordion-body {
+    color: #000;
+}
+.accordion-item {
+    border: 1px solid #ccc;
+}
+.accordion-header {
+    border-bottom: 1px solid #ccc;
+}
+a {
+    color: #010a14;
+}
+a:hover {
+    color: #0056b3;
+}
+
+
+

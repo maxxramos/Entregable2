@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,11 +17,11 @@ body {
 main {
     flex: 1;
     padding: 20px;
-}
+} */
 
 
 /* Estilos para el contenedor de imágenes en el INDEX */
-
+/* 
 .container-ind {
     width: 100%;
     height: 100vh;
@@ -66,8 +66,8 @@ img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
+} */
+/* 
 .text-img {
     position: absolute;
     bottom: 1px;
@@ -78,11 +78,11 @@ img {
     font-size: 14px;
     text-align: center;
     width: 100%;
-}
+} */
 
 /* Segundo contenedor del INDEX*/
 
-#estiloh4 h4 {
+/* #estiloh4 h4 {
     display: inline-block;
     background-color: black;
     font-family: sans-serif;
@@ -94,81 +94,35 @@ img {
     border-radius: 5px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
-
-.container-ind2 {
-    width: 100%;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-        "disco1 disco2 disco3 disco4 disco5 disco6"
-        "disco7 disco8 disco9 disco10 disco11 disco12";
-    padding: 40px;
-    margin-bottom: 15px;
-}
-
-.disco1 {
-    grid-area: disco1;
-}
+ */
 
 
-.disco2 {
-    grid-area: disco2;
-}
 
-.disco3 {
-    grid-area: disco3;
-}
-
-
-.disco4 {
-    grid-area: disco4;
-}
-
-
-.disco5 {
-    grid-area: disco5;
-}
-
-
-.disco6 {
-    grid-area: disco6;
-}
-
-.disco7 {
-    grid-area: disco7;
-}
-
-.disco8 {
-    grid-area: disco8;
-}
-
-.disco9 {
-    grid-area: disco9;
-}
-
-.disco10 {
-    grid-area: disco10;
-}
-
-.disco11 {
-    grid-area: disco11;
-}
-
-.disco12 {
-    grid-area: disco12;
-}
-
-.discos {
-    margin: 10px;
-    max-width: 200px;
-    max-height: 200px;
+/* .custom-card {
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
+
+.custom-card .card-img-top {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.custom-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    text-align: center;
+} */
+
  /** Estilo para Artistas <----------------*/
 
- .list-group-item a {
+ /* .list-group-item a {
     color: inherit;
     text-decoration: none;
   }
@@ -177,51 +131,82 @@ img {
     color: #d27131; 
     font-weight: bold;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-  }
+  } */
 /** Estilo para Foro<------------------------------------*/
 
-.container-f {
+/* .container-f {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin-bottom: 20px;
     border: 10px;
-}
+} */
 
 /** Estilo para Generos<------------------------------------*/
-
-.container-g {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin-bottom: 20px;
-    border: 10px;
+/* 
+.bg-body {
+    background-image:url(../img/music-1970040_1280.jpg);
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
 }
 
+.accordion-bg-1 {
+    background-image: url(../img/acordeon1.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 
-/** Estilos para el footer **/
+  .accordion-bg-2 {
+    background-image: url(../img/back\ musicos.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    margin: 0px;
-}
-
-.contacto {
-    max-width: 600px;
-    margin: 0px auto;
-}
+  }
 
 
+  .accordion-bg-3 {
+    background-image: url(../img/s-l1200.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+
+
+  .accordion-bg-4 {
+    background-image: url(../img/djjj.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+
+  .accordion-bg-5 {
+    background-image: url(../img/tango.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+
+
+
+  .accordion-body {
+    background-color: rgba(255, 255, 255, 0.6); /* Fondo semitransparente para legibilidad */
+  }
+ */
+
+
+  
 /** Estilo para Quienes somos<------------------------------------*/
 
 /** ACORDEON*/
 
-
+/* 
   .accordion-button {
             background-color: #fff;
             color: #000;
@@ -237,7 +222,6 @@ footer {
             filter: invert(100%);
         }
         .accordion-body {
-            background-color: #fff;
             color: #000;
         }
         .accordion-item {
@@ -252,17 +236,13 @@ footer {
         a:hover {
             color: #0056b3;
         }
-
+ */
 
 
 
         /* MEDIA QUERIES PARA INDEX*/
         
-
-      /* Media queries para mantener el footer al fondo */
-
-
-
+/* 
 @media screen and (max-width: 700px) {
     .container-ind {
         grid-template-columns: 1fr;
@@ -272,14 +252,5 @@ footer {
             "img-sec"
             "img-ter";
     }
-        .container-ind2 {
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(4, 1fr);
-            grid-template-areas: 
-                "disco1 disco2 disco3"
-                "disco4 disco5 disco6"
-                "disco7 disco8 disco9"
-                "disco10 disco11 disco12" 
-        }
     }
-
+ */

@@ -1,0 +1,10 @@
+.list-group-item a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .list-group-item a:hover {
+    color: #d27131; 
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
