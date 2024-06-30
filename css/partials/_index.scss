@@ -89,25 +89,8 @@
 }
 
 
-
 .custom-card {
-    width: 200px;
-    height: 200px;
-    margin: 10px auto;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.custom-card .card-img-top {
-    height: 150px;
-    width: 100%;
-    object-fit: cover;
-}
-
-.custom-card .card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 150px;
-    text-align: center;
+  height: 100%;
+  width: 100%;
+  margin: 10px;
 }
