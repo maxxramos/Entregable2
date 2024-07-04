@@ -1,7 +1,12 @@
  @import "./partials/variables";
  @import "./partials/reset";
- @import "./partials/index";
- @import "./partials/artistas";
- @import "./partials/foro";
- @import "./partials/generos";
- @import "./partials/quienes-somos";
+ @import "./partials/estilo-index";
+ @import "./partials/estilo-artistas";
+ @import "./partials/estilo-foro";
+ @import "./partials/estilo-generos";
+ @import "./partials/estilo-quienes-somos";
+
+ h1 {
+    font-size: 1.5rem;
+ }
+
